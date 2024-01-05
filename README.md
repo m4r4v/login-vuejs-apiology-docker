@@ -51,7 +51,7 @@ docker run -p 8010:80 -d -v ${PWD}:/var/www -e MYSQL_ROOT_PASSWORD=123456 --name
 **-p** : sets the docker port redirection from container to host
 
 - web server:
-    - local port: 8880
+    - local port: 8010
     - host port: 80
 - db server:
     - local port: 3306
