@@ -55,7 +55,6 @@ docker run -p 8010:80 -d -v ${PWD}:/var/www -e MYSQL_ROOT_PASSWORD=123456 --name
     - host port: 80
 - db server:
     - local port: 3306
-    - host port: 3306
 
 **-d** : dettached mode
 
