@@ -22,9 +22,9 @@ This settings are for a frontend and backend solution integrated in one containe
 
 ### Dev - Prod Rules
 
-the port is the only factor being used to determine if is the dev or prod environment:
+the port is the only factor being used to determine if is the dev or prod environment, so when going live into production, the port must change to 80:
 
-- **dev port** : 8880
+- **dev port** : 8010
 - **prod port** : 80
 
 ### Technical Environment
