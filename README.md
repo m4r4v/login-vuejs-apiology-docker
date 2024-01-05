@@ -45,7 +45,7 @@ the port is the only factor being used to determine if is the dev or prod enviro
 ## 1. Create container - docker run
 
 ```bash
-docker run -p 8880:80 -p 3306:3306 -d -v ${PWD}:/var/www -e MYSQL_ROOT_PASSWORD=123456 --name project-name m4r4v/lamp-debian-bullseye:latest
+docker run -p 8010:80 -d -v ${PWD}:/var/www -e MYSQL_ROOT_PASSWORD=123456 --name login-vue-apiology m4r4v/lamp-debian-bullseye:latest
 ```
 
 **-p** : sets the docker port redirection from container to host
